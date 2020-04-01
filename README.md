@@ -1,0 +1,2 @@
+# synthesis-fotografia
+Um site de página única para uma empresa fictícia de fotografia, usando uma abordagem mobile-first com apenas HTML5 e CSS3, e a api do Unsplash, onde a cada vez que você recarrega a página, novas imagens são carregadas aleatoriamente de acordo com categorias pré-definidas.
