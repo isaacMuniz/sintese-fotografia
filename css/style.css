@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
 
+* {
+    --radius: 0 0 0.6rem 0.6rem;
+}
+
 body {
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0;
@@ -26,6 +30,8 @@ main {
     margin: auto;
     box-shadow: 30px 0px 40px rgba(0,0,0,0.1), 
     -30px 0px 40px rgba(0,0,0,0.1);
+    border-radius: var(--radius);
+    
 }
 
 /* landing */
@@ -69,8 +75,8 @@ main {
     color: #fff
 }
 #header h2 {
-    border-right: 1px dotted #fff;
-    border-left: 1px dotted #fff;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
     display: inline-block;
     padding: 0 1rem;
 }
@@ -80,6 +86,15 @@ main {
     text-align: center;
 }
 
+#reload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f7f7f7;
+    height: 2rem;
+    border-radius: var(--radius);
+}
+
 footer {
     text-align: center;
     padding: 2rem 1rem;
@@ -87,4 +102,44 @@ footer {
 footer h3 {
     font-size: 1.8rem;
     margin-bottom: 0;
+}
+
+#credits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    border-radius: .6rem .6rem 0 0;
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(0,0,0,0.1), 
+    -30px 0px 40px rgba(0,0,0,0.1);
+}
+#credits p {
+    margin: .4rem 0;
+    font-size: .9rem;
+}
+#credits a {
+    text-decoration: none;
+    color: #C78E2D;
+}
+#credits a:hover {text-decoration: underline;}
+
+/* Screen sizes 500px and up */
+@media (min-width: 500px) {
+    
+    #landing {
+        display: flex;
+        height: 100%;
+    }
+
+    #landing-text, #landing-image {height: 100vh;}
+}
+
+/* Screen sizes 700px and up */
+@media (min-width: 700px) {
+
+    .btn {
+        padding: 1rem 3rem;
+    }
 }
