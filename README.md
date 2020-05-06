@@ -6,4 +6,4 @@ Informações importantes:
 - Usando uma Api (Unsplash)
 - Diferentes imagens a cada reload
 - HTML5 e CSS3 (um pouco de JQuery para scroll lento)
-- Carregado no GitHub Pages.
+- Carregado no GitHub Pages: https://isaacmuniz.github.io/sintese-fotografia/
