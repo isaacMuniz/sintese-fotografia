@@ -126,8 +126,7 @@ footer h3 {
 #credits p {
   margin: 0.4rem 0;
 }
-#credits a,
-#credits span {
+#credits a {
   text-decoration: none;
   color: #06075a;
 }
