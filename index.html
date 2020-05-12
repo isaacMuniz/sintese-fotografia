@@ -1,100 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- css -->
-  <link rel="stylesheet" href="css/style.css">
-  <title>Síntese Fotografia</title>
-</head>
-<body>
-  <main>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Síntese Fotografia</title>
+  </head>
+  <body>
+    <main>
+      <div id="landing">
+        <div id="landing-text">
+          <div id="landing-text-inner">
+            <h1>Síntese Fotografia</h1>
+            <h2>Capturando Beleza</h2>
+            <a href="#images" class="btn" id="view-work">
+              Ver Trabalho
+            </a>
+          </div>
+        </div>
+        <div id="landing-image"></div>
+      </div>
 
-    <div id="landing">
-      <div id="landing-text">
-        <div id="landing-text-inner">
-          <h1>Síntese Fotografia</h1>
-          <h2>Capturando Beleza</h2>
-          <a href="#images" class="btn" id="view-work">
-            Ver Trabalho
-          </a>
+      <div id="images">
+        <div id="header">
+          <h2>Nosso Trabalho</h2>
+        </div>
+
+        <img
+          src="https://source.unsplash.com/featured/?nature,natural"
+          alt=""
+        />
+        <div class="caption">
+          <h3>Natureza</h3>
+        </div>
+        <img src="https://source.unsplash.com/featured/?people,person" alt="" />
+        <div class="caption">
+          <h3>Pessoas</h3>
+        </div>
+        <img
+          src="https://source.unsplash.com/featured/?event,happening"
+          alt=""
+        />
+        <div class="caption">
+          <h3>Eventos</h3>
+        </div>
+        <img src="https://source.unsplash.com/featured/?product" alt="" />
+        <div class="caption">
+          <h3>Produtos</h3>
+        </div>
+        <img
+          src="https://source.unsplash.com/featured/?journey,adventure"
+          alt=""
+        />
+        <div class="caption">
+          <h3>Jornadas</h3>
+        </div>
+        <img src="https://source.unsplash.com/featured/?rave" alt="" />
+        <div class="caption">
+          <h3>Festas</h3>
         </div>
       </div>
-      <div id="landing-image"></div>
+
+      <div id="reload">
+        <p>Recarregue a página para ver mais imagens.</p>
+      </div>
+    </main>
+
+    <footer>
+      <h3>Entre em Contato</h3>
+      <p>
+        Nos envie um email, mensagem, ou nos ligue para marcar uma consulta.
+      </p>
+      <p>Email: <strong>contato@sintese.foto</strong></p>
+      <p>Fone: <strong>(19) 99999-9999</strong></p>
+    </footer>
+
+    <div id="credits">
+      <p>
+        feito com &hearts; por
+        <a href="https://isaacmuniz.dev" target="_blank">isaacDev</a>
+      </p>
     </div>
 
-    <div id="images">
-      <div id="header">
-        <h2>Nosso Trabalho</h2>
-      </div>
+    <!-- get jquery -->
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
 
-      <img src=
-      "https://source.unsplash.com/featured/?nature,natural"
-      alt="">
-      <div class="caption">
-        <h3>Natureza</h3>
-      </div>
-      <img src=
-      "https://source.unsplash.com/featured/?people,person"
-      alt="">
-      <div class="caption">
-        <h3>Pessoas</h3>
-      </div>
-      <img src=
-      "https://source.unsplash.com/featured/?event,happening"
-      alt="">
-      <div class="caption">
-        <h3>Eventos</h3>
-      </div>
-      <img src=
-      "https://source.unsplash.com/featured/?product"
-      alt="">
-      <div class="caption">
-        <h3>Produtos</h3>
-      </div>
-      <img src=
-      "https://source.unsplash.com/featured/?journey,adventure"
-      alt="">
-      <div class="caption">
-        <h3>Jornadas</h3>
-      </div>
-      <img src=
-      "https://source.unsplash.com/featured/?rave"
-      alt="">
-      <div class="caption">
-        <h3>Festas</h3>
-      </div>
-    </div>
-
-    <div id="reload">
-      <p>Recarregue a página para ver mais imagens.</p>
-    </div>
-  </main>
-
-  <footer>
-    <h3>Entre em Contato</h3>
-    <p>
-      Nos envie um email, mensagem, ou nos ligue para
-      marcar uma consulta.
-    </p>
-    <p>Email: <strong>contato@sintese.foto</strong></p>
-    <p>Fone: <strong>(19) 99999-9999</strong></p>
-  </footer>
-  
-  <div id="credits">
-    <p>por 
-      <a href="https://isaacmuniz.dev" target="_blank">isaacmuniz.dev</a>
-    </p>
-  </div>
-
-  <!-- get jquery -->
-  <script
-    src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous">
-  </script>
-
-  <!-- script for smooth scrolling -->
-  <script src="js/main.js"></script>
-</body>
+    <!-- script for smooth scrolling -->
+    <script src="js/main.js"></script>
+  </body>
 </html>
