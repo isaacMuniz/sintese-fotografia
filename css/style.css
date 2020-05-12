@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap");
 
-* {
+:root {
   --radius: 0 0 0.6rem 0.6rem;
 }
 
